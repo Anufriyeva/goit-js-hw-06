@@ -11,7 +11,7 @@ function onFormSubmit(event) {
   const passwordValue = passwordInput.value;
 
   if (emailValue === "" || passwordValue === "") {
-    alert("Всі поля мають біти заповнені");
+    alert("Всі поля мають бути заповнені");
     return;
   }
 
